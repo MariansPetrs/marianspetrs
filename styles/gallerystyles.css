@@ -12,8 +12,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding-left: 10;
-    padding-right: 10;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .gallery img {
