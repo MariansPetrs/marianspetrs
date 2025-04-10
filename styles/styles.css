@@ -20,6 +20,12 @@ html, body {
     height: 800px;
     text-align: center; 
   }
+
+  .header2 {
+    background-size: cover;
+    height: 800px;
+    text-align: center; 
+  }
   
   .header .container {
     position: relative;
