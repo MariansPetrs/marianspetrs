@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+        <link href="/styles/styles.css" type='text/css'rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+              <h1>[ Lisbon, Portugal ]</h1>
+              <p>[ Portfolio ]</p>
+              <a class="btn" href="index.html">Home</a>
+            </div>
+          </div>
+          
+          <div class="gallery">
+            <img class="gallery-item" src="styles/images/S1.jpg" width="300" height="200" data-category="portrait" onclick="openLightbox(this.src)">
+            <img class="gallery-item" src="styles/images/S2.jpg" width="300" height="200" data-category="landscape" onclick="openLightbox(this.src)">
+            <img class="gallery-item" src="styles/images/S3.jpg" width="300" height="200" data-category="urban" onclick="openLightbox(this.src)">
+            <img class="gallery-item" src="styles/images/S4.jpg" width="300" height="200" data-category="portrait" onclick="openLightbox(this.src)">
+            <img class="gallery-item" src="styles/images/S5.jpg" width="300" height="200" data-category="landscape" onclick="openLightbox(this.src)">
+            <img class="gallery-item" src="styles/images/S6.jpg" width="300" height="200" data-category="urban" onclick="openLightbox(this.src)">
+        </div>
+  
+        <!-- Lightbox Modal -->
+        <div id="lightboxModal" class="lightbox" onclick="closeLightbox()">
+            <img id="lightboxImg">
+        </div>
+          <div class="nav">
+            <div class="container">
+              <ul>
+                <li>Professional CV</li>
+                <li>Photography</li>
+                <li>Sponsors</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+    </body>
+</html>
