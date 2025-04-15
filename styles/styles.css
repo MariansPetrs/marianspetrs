@@ -22,7 +22,7 @@ html, body {
   }
 
   .header-gallery {
-    height: 400px;
+    height: 200px;
     text-align: center; 
   }
   
@@ -181,6 +181,7 @@ html, body {
     gap: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
   
   .gallery img {
