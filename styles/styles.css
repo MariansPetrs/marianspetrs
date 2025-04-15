@@ -22,6 +22,8 @@ html, body {
   }
 
   .header-gallery {
+    background: url(../styles/images/S1.jpg) no-repeat center center; 
+    background-size: cover;
     height: 100px;
     text-align: center; 
   }
